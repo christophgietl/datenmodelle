@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Datenmodellierung: ERD vs. UML</title>
+
+    <meta name="description"
+          content="Entity-Relationship-Diagramme und UML als Ansätze zur konzeptuellen Datenmodellierung">
+    <meta name="author" content="Christoph Gietl">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reveal.js/dist/reset.css">
+    <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="reveal.js/dist/theme/moon.css" id="theme">
+    <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <div class="slides">
+
+        <section>
+            <section>
+                <h1 style="text-align: left">Datenmodellierung: ERD vs. UML</h1>
+                <table style="font-size: 0.5em; margin-left: 0; margin-top: 2em; text-align: left">
+                    <tr>
+                        <th style="border-style: none">Modul</th>
+                        <td style="border-style: none">Datenbanken</td>
+                    </tr>
+                    <tr>
+                        <th style="border-style: none">Dozent</th>
+                        <td style="border-style: none">Christoph Gietl</td>
+                    </tr>
+                    <tr>
+                        <th style="border-style: none">Datum</th>
+                        <td style="border-style: none">26. Januar 2022</td>
+                    </tr>
+                    <tr>
+                        <th style="border-style: none">Folien</th>
+                        <td style="border-style: none">
+                            <a href="https://christophgietl.github.io/datenmodellierung">christophgietl.github.io/datenmodellierung</a>
+                        </td>
+                    </tr>
+                </table>
+                <aside class="notes">
+                    <h3>Begrüßung und Motivation</h3>
+                    <ol>
+                        <li>Begrüßung der Zuhörer</li>
+                        <li>Verortung der Vorlesung im Modul
+                            <ol>
+                                <li>Name: Datenbanken</li>
+                                <li>Zielgruppe: 3. bis 4. Semester im B.&thinsp;Sc.-Studiengang <em>Informatik</em></li>
+                                <li>Vorkenntnisse: objektorientierte Programmierung und UML</li>
+                            </ol>
+                        </li>
+                        <li>Überleitung
+                            <ol>
+                                <li><q>Die Vorlesung beginnt in fünf Sekunden.</q></li>
+                                <li>Countdown</li>
+                                <li><q>Liebe Studierende, herzlich willkommen zur Datenbanken-Vorlesung!</q></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </aside>
+            </section>
+        </section>
+
+        <section data-markdown="rueckblick.md"
+                 data-separator="----"
+                 data-separator-vertical="---"
+                 data-separator-notes="^Note:"
+                 data-charset="utf-8">
+        </section>
+
+        <section data-markdown="unified-modeling-language.md"
+                 data-separator="----"
+                 data-separator-vertical="---"
+                 data-separator-notes="^Note:"
+                 data-charset="utf-8">
+        </section>
+
+        <section data-markdown="entity-relationship-diagramme.md"
+                 data-separator="----"
+                 data-separator-vertical="---"
+                 data-separator-notes="^Note:"
+                 data-charset="utf-8">
+        </section>
+
+        <section data-markdown="zusammenfassung-und-ausblick.md"
+                 data-separator="----"
+                 data-separator-vertical="---"
+                 data-separator-notes="^Note:"
+                 data-charset="utf-8">
+        </section>
+
+    </div>
+
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/search/search.js"></script>
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script>
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+        slideNumber: true,
+        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+    });
+</script>
+
+</body>
+</html>
