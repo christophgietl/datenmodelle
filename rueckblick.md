@@ -1,4 +1,4 @@
-## Zuletzt in der<br/>Datenbanken-Vorlesung
+## Was bisher geschah
 
 ---
 
@@ -59,3 +59,28 @@ Anmerkungen:
     - für verschiedene Applikationen
 - *ein* internes Schema
 - Alle werden aus dem konzeptuellen Schema abgeleitet.
+
+---
+
+### Datenmodell *(data model, DM)*
+
+- formales Konzept zur Beschreibung von Datenbankstrukturen zur Repräsentation der Informationsstrukturen der Miniwelt
+- beinhaltet
+  - Objekte (Entitäten) und Konstruktoren für den Zusammenbau zu logischen Datenbankstrukturen
+  - Benennungskonventionen
+  - inhärente Konsistenzregeln (im DM begründet)
+  - explizite Konsistenzregeln
+  - Operationen zur Wiedergewinnung und Fortschreibung der Datenbankinhalte und darauf basierende Datenbanksprachen
+  - Konventionen zur physischen Abspeicherung
+
+---
+
+#### Beispiele für Datenmodelle
+
+- relationales Datenmodell
+- prärelationale Datenmodelle
+  - hierarchisches Datenmodell
+  - Netzwerkdatenmodell
+- Objektdatenmodell
+- objektrelationales Datenmodell
+- semantisches Datenmodell
