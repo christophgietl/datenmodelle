@@ -31,9 +31,12 @@
 
 ---
 
-### Nachteile des <q style="font-style: normal">direkten</q> logischen Datenbankentwurfs
+### Nachteile des <q style="font-style: normal">direkten</q><br/>logischen Datenbankentwurfs
 
-- TODO
+- Resultierendes Schema ist abhängig von
+  - der Wahl des logischen Datenmodells und damit
+  - der Wahl des Datenbankverwaltungssystems.
+- Resultierendes Schema beschreibt Implementierungssicht statt Anwendersicht.
 
 ---
 
@@ -78,17 +81,33 @@
 
 ### Konzeptuelles Datenmodell
 
-- TODO
-- alternative Bezeichnung: semantisches Datenmodell
-
----
-
-#### Beispiele für konzeptuelle Datenmodelle
-
-- semantisches Datenmodell der
-  Informationsanalyse <!-- .element: class="fragment highlight-red" data-fragment-index="2" -->
-- Entity-Relationship-Modell <!-- .element: class="fragment highlight-red" data-fragment-index="2" -->
-- objektorientierte Entwurfsmodelle (z.&thinsp;B. UML)
+<ul>
+  <li>
+    Definition
+    <ul>
+      <li>formales Konzept zur Beschreibung der Miniwelt und ihrer Gesetzmäßigkeiten</li>
+    </ul>
+  <li class="fragment" data-fragment-index="1">
+    alternative Bezeichnung
+    <ul>
+      <li>semantisches Datenmodell</li>
+    </ul>
+  </li>
+  <li class="fragment" data-fragment-index="2">
+    Beispiele
+    <ul>
+      <li class="fragment highlight-red" data-fragment-index="2">
+        semantisches Datenmodell der Informationsanalyse
+      </li>
+      <li class="fragment highlight-red" data-fragment-index="2">
+        Entity-Relationship-Modell (ERM)
+      </li>
+      <li>
+        objektorientierte Entwurfsmodelle (z.&thinsp;B. UML)
+      </li>
+    </ul>
+  </li>
+</ul>
 
 Anmerkungen:
 

@@ -37,8 +37,7 @@
     Das konzeptuelle Schema
     <ul>
       <li>ist ein Zwischenschritt auf dem Weg zum logischen Schema</li>
-      <li>ermöglicht Beschreibung der Miniwelt unabhängig von der Wahl des Typs des Datenbankverwaltungssystems und</li>
-      <li>verbessert die Qualität des logischen Schemas.</li>
+      <li>ermöglicht Beschreibung der Miniwelt unabhängig von der Wahl des Typs des Datenbankverwaltungssystems.</li>
     </ul>
   </li>
   <li class="fragment">
@@ -53,6 +52,7 @@
     Intellektuelle Arbeit steckt im konzeptuellen Schema.
   </li>
   <li class="fragment">
-    Transformation konzeptueller Schemata in logische Schemata erfolgt halbautomatisch (siehe nächste Vorlesung).
+    Transformation konzeptueller Schemata in logische Schemata erfolgt halbautomatisch bis nahezu automatisch
+    (siehe nächste Vorlesung).
   </li>
 </ul>
