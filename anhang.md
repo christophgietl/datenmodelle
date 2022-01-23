@@ -1,16 +1,10 @@
-## Zusammenfassung und weiterführende Literatur
+## Anhang
 
 ---
 
 ### Literaturverzeichnis und Bildnachweis
 
 <ul style="font-size: 0.75em">
-    <li>
-        Chen, Peter Pin-Shan. (1976).
-        <q lang="en" style="font-style: normal">The entity-relationship model&mdash;toward a unified view of data</q>.
-        <em>ACM Transactions on Database Systems</em> 1, 9&ndash;36.
-        DOI: <a href="https://doi.org/10.1145/320434.320440">10.1145/320434.320440</a>.
-    </li>
     <li>
         Kemper, Alfons und André Eickler (2015).
         <em>Datenbanksysteme. Eine Einführung (10. Auflage).</em>
@@ -38,6 +32,27 @@
 
 ### Zusammenfassung und Ausblick
 
-- TODO
-- Nächste Vorlesung: Logischer Datenbankentwurf (ausgehend vom semantischen Datenmodell der Informationsanalyse und vom
-  Entity-Relationship-Modell).
+<ul style="font-size: 0.75em">
+  <li>
+    Das konzeptuelle Schema
+    <ul>
+      <li>ist ein Zwischenschritt auf dem Weg zum logischen Schema</li>
+      <li>ermöglicht Beschreibung der Miniwelt unabhängig von der Wahl des Typs des Datenbankverwaltungssystems und</li>
+      <li>verbessert die Qualität des logischen Schemas.</li>
+    </ul>
+  </li>
+  <li class="fragment">
+    Beispiele für Datenmodelle für konzeptuelle Schemata
+    <ul>
+      <li>semantisches Datenmodell der Informationsanalyse</li>
+      <li>Entity-Relationship-Modell (ERM)</li>
+      <li>Unified-Modeling-Language (UML)</li>
+    </ul>
+  </li>
+  <li class="fragment">
+    Intellektuelle Arbeit steckt im konzeptuellen Schema.
+  </li>
+  <li class="fragment">
+    Transformation konzeptueller Schemata in logische Schemata erfolgt halbautomatisch (siehe nächste Vorlesung).
+  </li>
+</ul>
