@@ -29,7 +29,7 @@
 
 ---
 
-#### Konzepte des semantischen Datenmodells der Informationsanalyse
+#### Grundbegriffe des semantischen Datenmodells der Informationsanalyse
 
 - Objekttyp
 - Obertyp und Untertyp
@@ -78,7 +78,7 @@
 
 ---
 
-##### Konzeptuelles Schema in grafischer Notation
+##### Konzeptuelles Schema in grafischer Notation des semantischen Datenmodells der Informationsanalyse
 
 <figure>
     <img alt="Aus dem konzeptuellen Schema werden ein internes Schema (für die Datenbanken) und mehrere externe Schemata (für Gruppen menschlicher Nutzer:innen und für Anwendungen) abgeleitet."
@@ -88,12 +88,12 @@
 
 ---
 
-##### Grafische Darstellung der Konzepte des semantischen Datenmodells der Informationsanalyse
+##### Grafische Darstellung der Grundbegriffe des semantischen Datenmodells der Informationsanalyse
 
 <table style="font-size:0.5em">
     <thead>
         <tr>
-            <th style="border-style: none">Konzept</th>
+            <th style="border-style: none">Grundbegriff</th>
             <th style="border-style: none">grafische Darstellung</th>
             <th style="border-style: none">Instanzen</th>
         </tr>
