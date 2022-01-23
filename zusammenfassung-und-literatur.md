@@ -39,4 +39,5 @@
 ### Zusammenfassung und Ausblick
 
 - TODO
-- Nächste Vorlesung: Datenbanksprachen.
+- Nächste Vorlesung: Logischer Datenbankentwurf (ausgehend vom semantischen Datenmodell der Informationsanalyse und vom
+  Entity-Relationship-Modell).
