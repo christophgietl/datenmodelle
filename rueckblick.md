@@ -57,7 +57,7 @@
 #### Beispiel: Lieferantendatenbank
 
 <div style="float: left; width: 60%">
-    <h5>Informationszusammenhänge</h5>
+    <h5>Semantische Regeln</h5>
     <ol style="font-size: 0.7em">
         <li>
             Ein <strong>Lieferant</strong> hat

@@ -24,12 +24,61 @@
 
 ### Semantisches Datenmodell der Informationsanalyse
 
-- textuelle Notation für das Ergebnis der Informationsanalyse
-- grafische Notation für das Ergebnis der Informationsanalyse
+- konzeptuelles Datenmodell für das konzeptuelle Schema als Ergebnis der Informationsanalyse
+- bietet textuelle und grafische Notation
 
 ---
 
-#### Beispiel: Lieferanteninformation in grafischer Notation
+#### Konzepte des semantischen Datenmodells der Informationsanalyse
+
+- Objekttyp
+- Obertyp und Untertyp
+- Datentyp
+    - physische Repräsentation eines Objekttyps
+- atomarer Objekttyp
+- Assoziationstyp
+    - benannte Beziehung zwischen *n≥2* Objekttypen,<br/>
+      die in dieser Beziehung bestimmte Rollen spielen und
+      bestimmte Kardinalitäten haben
+- Eigenschaft
+- Namenskonvention
+    - identifizierende Eigenschaft
+
+---
+
+#### Beispiel für ein konzeptuelles Schema im semantischen Datenmodell der Informationsanalyse
+
+##### Semantische Regeln der Lieferanteninformation
+
+<ol style="font-size: 0.7em">
+    <li>
+        Ein <strong>Lieferant</strong> hat
+        <ul>
+            <li>eine eindeutige Nummer,</li>
+            <li>einen eindeutigen Namen und</li>
+            <li>einen Firmensitz, der zu einer Region gehört.</li>
+        </ul>
+    </li>
+    <li>
+        Ein <strong>Produkt</strong> hat
+        <ul>
+            <li>einen eindeutigen Produkttyp,</li>
+            <li>einen Namen,</li>
+            <li>eine optionale Materialangabe und</li>
+            <li>einen Richtpreis.</li>
+        </ul>
+    </li>
+    <li>
+        Ein <strong>Lieferant</strong> kann von einem <strong>Produkt</strong> eine maximale Menge (Kapaz) liefern.
+    </li>
+    <li>
+        Ein <strong>Systemhersteller</strong> produziert <strong>Produkte</strong> an einem <strong>Ort</strong>.
+    </li>
+</ol>
+
+---
+
+##### Konzeptuelles Schema in grafischer Notation
 
 <figure>
     <img alt="Aus dem konzeptuellen Schema werden ein internes Schema (für die Datenbanken) und mehrere externe Schemata (für Gruppen menschlicher Nutzer:innen und für Anwendungen) abgeleitet."
@@ -39,28 +88,41 @@
 
 ---
 
-#### Konzepte des semantischen Datenmodells der Informationsanalyse
+##### Grafische Darstellung der Konzepte des semantischen Datenmodells der Informationsanalyse
 
-- Objekttyp
-- Assoziationstyp
-    - *n*-näre Beziehung zwischen Objekttypen *(n≥2)*,<br/>
-      die in dieser Beziehung bestimmte Rollen spielen
-- Kardinalität (Mitgliedschaftsintervall)
-    - TODO
-- Obertypen und Untertypen
-- verpflichtende Eigenschaften (Kardinalität ≥1)
-- optionale Eigenschaften (Kardinalität ≥0)
-- Namenskonventionen (TODO)
-- Datentypen
-- Metainformationen
-
----
-
-#### Semantische Irreduzibilität von Assoziationstypen
-
-- Definition
-    - Ein Assoziationstyp heißt *semantisch irreduzibel*, wenn er nicht ohne Informationsverlust weiter zerlegt werden
-      kann.
-- Vorteile  <!-- .element: class="fragment" -->
-    - macht das konzeptuelle Schema stabil gegenüber Erweiterungen
-    - ermöglicht die Ableitung anomaliefreier Datenbankstrukturen
+<table style="font-size:0.5em">
+    <thead>
+        <tr>
+            <th style="border-style: none">Konzept</th>
+            <th style="border-style: none">grafische Darstellung</th>
+            <th style="border-style: none">Instanzen</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border-style: none">Objekttypen</td>
+            <td style="border-style: none">Rechtecke</td>
+            <td style="border-style: none">Adresse, Hersteller, Kapazität, Lieferant, LiefName, LiefNr, Ort, PName, Produkt, PTyp, Region, Systemhersteller</td>
+        </tr>
+        <tr>
+            <td style="border-style: none">binäre Assoziationstypen</td>
+            <td style="border-style: none">Rhomben, Name im Rhombus (unvollständig), Rollen und Kardinalitäten (unvollständig) an den Verbindunslinien zu den Objekttypen</td>
+            <td style="border-style: none">NAM1, NAM2, SysH_Ort, SysH_Prod</td>
+        </tr>
+        <tr>
+            <td style="border-style: none">strukturierte binäre Assoziationstypen</td>
+            <td style="border-style: none">Rhomben in Rechtecken, Name im Rhombus, Rollen und Kardinalitäten (unvollständig) an den Verbindunslinien zu den Objekttypen</td>
+            <td style="border-style: none">L_P</td>
+        </tr>
+        <tr>
+            <td style="border-style: none">Obertypen und Untertypen</td>
+            <td style="border-style: none">gerichteter Pfeil mit Doppelspitze</td>
+            <td style="border-style: none">Hersteller und Systemhersteller</td>
+        </tr>
+        <tr>
+            <td style="border-style: none">Datentypen</td>
+            <td style="border-style: none">gestrichelte Rechtecke mit gestrichelten Pfeilen mit einfacher Spitze</td>
+            <td style="border-style: none">Integer, String, String (len<=50)</td>
+        </tr>
+    </tbody>
+</table>
