@@ -19,12 +19,12 @@
         Kapitel 14.
     </li>
     <li>
-        Spielmann, Heinz-Jürgen (2001).
-        <q style="font-style: normal">Softwaretechnik</q>.
-        In: <em>Taschenbuch der Informatik (4. Auflage).</em>
-        Hrsg. von Uwe Schneider und Dieter Werner.
+        Kudraß, Thomas (2012).
+        <q style="font-style: normal">Datenbanken</q>.
+        In: <em>Taschenbuch der Informatik (7. Auflage).</em>
+        Hrsg. von Uwe Schneider.
         München: Fachbuchverlag Leipzig im Carl Hanser Verlag,
-        Kapitel 9.
+        Kapitel 13.
     </li>
 </ul>
 
