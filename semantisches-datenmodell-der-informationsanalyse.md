@@ -81,7 +81,7 @@
 ##### Konzeptuelles Schema in grafischer Notation des semantischen Datenmodells der Informationsanalyse
 
 <figure>
-    <img alt="Aus dem konzeptuellen Schema werden ein internes Schema (für die Datenbanken) und mehrere externe Schemata (für Gruppen menschlicher Nutzer:innen und für Anwendungen) abgeleitet."
+    <img alt="Schema gemäß SDIA mit zahlreichen Objekttypen und Assoziationstypen"
          src="images/semantisches-datenmodell-lieferanteninformation.png"/>
     <figcaption style="font-size: 0.5em">Quelle: Kern-Bausch, Jeckle (2001)</figcaption>
 </figure>

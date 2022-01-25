@@ -82,7 +82,7 @@
 ##### Konzeptuelles Schema der Lieferanteninformation<br/>gemäß Entity-Relationship-Modell
 
 <figure>
-    <img alt="Aus dem konzeptuellen Schema werden ein internes Schema (für die Datenbanken) und mehrere externe Schemata (für Gruppen menschlicher Nutzer:innen und für Anwendungen) abgeleitet."
+    <img alt="Schema gemäß ER-Modell mit den Entitätstypen Lieferant, Ort, Produkt, Region und Systemhersteller"
          src="images/erm-lieferanteninformation.png"/>
     <figcaption style="font-size: 0.5em">Quelle: Skizze des Dozenten</figcaption>
 </figure>
