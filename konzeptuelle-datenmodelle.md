@@ -2,26 +2,23 @@
 
 ---
 
-### Bereits bekannte Phasen des Datenbankentwurfs
+### Wiederholung: Schemata und Datenmodelle
 
 <table style="font-size:0.5em">
     <thead>
         <tr>
-            <th style="border-style: none">Phasenname</th>
-            <th style="border-style: none">Typ des resultierenden Schemas</th>
-            <th style="border-style: none">Aufgabe des resultierenden Schemas</th>
-            <th style="border-style: none">Datenmodelle für das resultierende Schema</th>
+            <th style="border-style: none">Typ des Schemas</th>
+            <th style="border-style: none">Aufgabe des Schemas</th>
+            <th style="border-style: none">Datenmodelle für das Schema</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="border-style: none">logischer Datenbankentwurf</td>
             <td style="border-style: none">logisches Schema</td>
             <td style="border-style: none">Beschreibung logischer Datenbankstrukturen</td>
             <td style="border-style: none">logische Datenmodelle</td>
         </tr>
         <tr class="fragment">
-            <td style="border-style: none">physischer Datenbankentwurf</td>
             <td style="border-style: none">physisches Schema</td>
             <td style="border-style: none">Beschreibung physischer Datenbankstrukturen</td>
             <td style="border-style: none">physische Datenmodelle</td>
@@ -31,16 +28,7 @@
 
 ---
 
-### Nachteile des <q style="font-style: normal">direkten</q><br/>logischen Datenbankentwurfs
-
-- Resultierendes Schema ist abhängig von
-  - der Wahl des logischen Datenmodells und damit
-  - der Wahl des Datenbankverwaltungssystems.
-- Resultierendes Schema beschreibt Implementierungssicht statt Anwendersicht.
-
----
-
-### Phasen des Datenbankentwurfs
+### Datenbankentwurf in zwei Phasen?
 
 <table style="font-size:0.5em">
     <thead>
@@ -53,7 +41,48 @@
         </tr>
     </thead>
     <tbody>
-        <tr style="color: #1b91ff">
+        <tr>
+            <td style="border-style: none">1</td>
+            <td style="border-style: none">logischer Datenbankentwurf</td>
+            <td style="border-style: none">logisches Schema</td>
+            <td style="border-style: none">Beschreibung logischer Datenbankstrukturen</td>
+            <td style="border-style: none">logische Datenmodelle</td>
+        </tr>
+        <tr class="fragment">
+            <td style="border-style: none">2</td>
+            <td style="border-style: none">physischer Datenbankentwurf</td>
+            <td style="border-style: none">physisches Schema</td>
+            <td style="border-style: none">Beschreibung physischer Datenbankstrukturen</td>
+            <td style="border-style: none">physische Datenmodelle</td>
+        </tr>
+    </tbody>
+</table>
+
+---
+
+#### Nachteile des zweiphasigen Datenbankentwurfs
+
+- Resultierende Schemata sind abhängig von
+  - der Wahl des logischen und physischen Datenmodells und damit
+  - der Wahl des Datenbankverwaltungssystems.
+- Resultierende Schemata beschreiben Implementierungssicht statt Anwendersicht.
+
+---
+
+### Datenbankentwurf in drei Phasen
+
+<table style="font-size:0.5em">
+    <thead>
+        <tr>
+            <th style="border-style: none">Phasennr.</th>
+            <th style="border-style: none">Phasenname</th>
+            <th style="border-style: none">Typ des resultierenden Schemas</th>
+            <th style="border-style: none">Aufgabe des resultierenden Schemas</th>
+            <th style="border-style: none">Datenmodelle für das resultierende Schema</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="fragment" style="color: #1b91ff">
             <td style="border-style: none">1</td>
             <td style="border-style: none">konzeptueller Datenbankentwurf</td>
             <td style="border-style: none">konzeptuelles Schema</td>
@@ -96,14 +125,14 @@
   <li class="fragment" data-fragment-index="2">
     Beispiele
     <ul>
+      <li>
+        objektorientierte Entwurfsmodelle (z.&thinsp;B. UML)
+      </li>
       <li class="fragment highlight-red" data-fragment-index="2">
         semantisches Datenmodell der Informationsanalyse
       </li>
       <li class="fragment highlight-red" data-fragment-index="2">
         Entity-Relationship-Modell (ERM)
-      </li>
-      <li>
-        objektorientierte Entwurfsmodelle (z.&thinsp;B. UML)
       </li>
     </ul>
   </li>
@@ -111,5 +140,5 @@
 
 Anmerkungen:
 
-- Die ersten beiden Beispiele werden wir uns heute noch genauer ansehen.
-- Die objektorientierten Entwurfsmodelle überlassen wir der Softwaretechnik-Vorlesung.
+- UML haben Sie sicher schon im Rahmen der objektorientierten Programmierung kennengelernt.
+- Die anderen beiden Beispiele werden wir uns jetzt genauer ansehen.
