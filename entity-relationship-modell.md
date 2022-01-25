@@ -38,6 +38,36 @@
 
 #### Beispiel für ein konzeptuelles Schema im Entity-Relationship-Modell
 
+#### Semantische Regeln der Lieferanteninformation (Kern-Bausch, Jeckle (2001))
+
+<ol style="font-size: 0.8em">
+    <li>
+        Ein <strong>Lieferant</strong> hat
+        <ul>
+            <li>eine eindeutige Nummer,</li>
+            <li>einen eindeutigen Namen und</li>
+            <li>einen Firmensitz, der zu einer Region gehört.</li>
+        </ul>
+    </li>
+    <li class="fragment">
+        Ein <strong>Produkt</strong> hat
+        <ul>
+            <li>einen eindeutigen Produkttyp,</li>
+            <li>einen Namen,</li>
+            <li>eine optionale Materialangabe und</li>
+            <li>einen Richtpreis.</li>
+        </ul>
+    </li>
+    <li class="fragment">
+        Ein <strong>Lieferant</strong> kann von einem <strong>Produkt</strong> eine maximale Menge (Kapaz) liefern.
+    </li>
+    <li class="fragment">
+        Ein <strong>Systemhersteller</strong> produziert <strong>Produkte</strong> an <strong>Orten</strong>.
+    </li>
+</ol>
+
+---
+
 ##### Konzeptuelles Schema in grafischer Notation des Entity-Relationship-Modells
 
 TODO: Grafik
