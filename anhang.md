@@ -37,7 +37,7 @@
     Das konzeptuelle Schema
     <ul>
       <li>ist ein Zwischenschritt auf dem Weg zum logischen Schema</li>
-      <li>ermöglicht Beschreibung der Miniwelt unabhängig von der Wahl des Typs des Datenbankverwaltungssystems.</li>
+      <li>ermöglicht Beschreibung der Miniwelt unabhängig von der Wahl des logischen Datenmodells des Datenbankverwaltungssystems.</li>
     </ul>
   </li>
   <li class="fragment">
