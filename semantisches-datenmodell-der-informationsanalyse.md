@@ -106,7 +106,7 @@
         </tr>
         <tr>
             <td style="border-style: none">binäre Assoziationstypen</td>
-            <td style="border-style: none">Rhomben, Name im Rhombus (unvollständig), Rollen und Kardinalitäten (unvollständig) an den Verbindunslinien zu den Objekttypen</td>
+            <td style="border-style: none">Rhomben, Name im Rhombus (unvollständig), Rollen und Kardinalitäten (unvollständig) an den Verbindungslinien zu den Objekttypen</td>
             <td style="border-style: none">NAM1, NAM2, SysH_Ort, SysH_Prod</td>
         </tr>
         <tr>
