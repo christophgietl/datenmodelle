@@ -4,19 +4,35 @@
 
 ### Entity-Relationship-Modell
 
-- konzeptuelles Datenmodell ausgehend vom Begriff der <q style="font-style: normal">Entität</q>
+- konzeptuelles Datenmodell
+- basiert auf dem Begriff der <q style="font-style: normal">Entität</q>
 - bietet grafische Notation<br/>(sogenannte Entity-Relationship-Diagramme, ERD)
 
 ---
 
 #### Grundbegriffe des Entity-Relationship-Modells
 
-- Entität
+- Entitäten
+    - wohlunterscheidbare Konzepte der Miniwelt
+    - existieren physisch oder gedanklich
 - Entitätstyp
+    - Zusammenfassung ähnlicher Entitäten
 - Beziehung *(relationship)*
-- Attribut
+    - zwischen Entitäten
+    - benannt
+- Beziehungstyp *(relationship type)*
+    - Zusammenfassung analog zu den Entitätstypen
+
+---
+
+#### Weitere Grundbegriffe des Entity-Relationship-Modells
+
+- Attribute
+    - dienen der Charakterisierung von Entitäten und Beziehungen
+- Schlüsselkandidaten und Schlüssel
+    - analog zum relationalen Datenmodell
 - Kardinalität
-- Rolle
+- Obertyp *(super type)* und Untertyp *(sub type)*
 
 ---
 
@@ -25,6 +41,8 @@
 ##### Konzeptuelles Schema in grafischer Notation des Entity-Relationship-Modells
 
 TODO: Grafik
+
+---
 
 ##### Grafische Darstellung der Grundbegriffe des Entity-Relationship-Modells
 
