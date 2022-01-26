@@ -63,8 +63,8 @@
 #### Nachteile des zweiphasigen Datenbankentwurfs
 
 - Resultierende Schemata sind abhängig von
-  - der Wahl des logischen und physischen Datenmodells und damit
-  - der Wahl des Datenbankverwaltungssystems.
+    - der Wahl des logischen und physischen Datenmodells und damit
+    - der Wahl des Datenbankverwaltungssystems.
 - Resultierende Schemata beschreiben Implementierungssicht statt Anwendersicht.
 
 ---
@@ -106,6 +106,12 @@
     </tbody>
 </table>
 
+Anmerkungen:
+
+- Alternative Bezeichnung ist <q>semantisches Datenmodell</q> anstelle von <q>konzeptuelles Datenmodell</q>.
+- Aber dann geht die schöne Regelmäßigkeit in dieser Tabelle kaputt.
+- Deshalb verwenden wir in dieser Vorlesung bevorzugt den Begriff <q>konzeptuelles Datenmodell</q>.
+
 ---
 
 ### Konzeptuelles Datenmodell
@@ -129,10 +135,10 @@
         objektorientierte Entwurfsmodelle (z.&thinsp;B. UML)
       </li>
       <li class="fragment highlight-red" data-fragment-index="2">
-        semantisches Datenmodell der Informationsanalyse
+        Entity-Relationship-Modell (ERM)
       </li>
       <li class="fragment highlight-red" data-fragment-index="2">
-        Entity-Relationship-Modell (ERM)
+        semantisches Datenmodell der Informationsanalyse
       </li>
     </ul>
   </li>
